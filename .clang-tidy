@@ -1,39 +1,12 @@
 # cSpell: disable
 Checks: "*\
-  ,-altera-unroll-loops\
-  ,-android-cloexec-fopen\
-  ,-bugprone-easily-swappable-parameters\
-  ,-cert-dcl50-cpp\
-  ,-cppcoreguidelines-avoid-c-arrays\
-  ,-cppcoreguidelines-avoid-do-while\
-  ,-cppcoreguidelines-avoid-magic-numbers\
-  ,-cppcoreguidelines-init-variables\
-  ,-cppcoreguidelines-pro-bounds-array-to-pointer-decay\
-  ,-cppcoreguidelines-pro-bounds-pointer-arithmetic\
-  ,-cppcoreguidelines-pro-type-cstyle-cast\
-  ,-cppcoreguidelines-pro-type-member-init\
-  ,-cppcoreguidelines-pro-type-vararg\
-  ,-fuchsia-trailing-return\
-  ,-google-readability-casting\
-  ,-google-readability-namespace-comments\
-  ,-hicpp-avoid-c-arrays\
-  ,-hicpp-deprecated-headers\
-  ,-hicpp-member-init\
-  ,-hicpp-named-parameter\
-  ,-hicpp-no-array-decay\
-  ,-hicpp-vararg\
-  ,-llvm-namespace-comment\
-  ,-llvm-qualified-auto\
-  ,-llvmlibc-callee-namespace\
-  ,-llvmlibc-implementation-in-namespace\
-  ,-llvmlibc-inline-function-decl\
-  ,-llvmlibc-restrict-system-libc-headers\
-  ,-modernize-avoid-c-arrays\
   ,-modernize-deprecated-headers\
-  ,-readability-function-cognitive-complexity\
-  ,-readability-identifier-length\
-  ,-readability-magic-numbers\
-  ,-readability-make-member-function-const\
-  ,-readability-named-parameter\
-  ,-readability-qualified-auto\
+  ,-llvmlibc-restrict-system-libc-headers\
+  ,-fuchsia-trailing-return\
+  ,-llvmlibc-implementation-in-namespace\
+  ,-cppcoreguidelines-pro-type-vararg\
+  ,-llvm-namespace-comment\
+  ,-hicpp-deprecated-headers\
+  ,-hicpp-vararg\
+  ,-llvmlibc-callee-namespace\
   "

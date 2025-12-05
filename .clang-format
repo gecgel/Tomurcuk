@@ -7,11 +7,14 @@
 ## expressions.  When wrapped, places items one-per-line.
 ##
 ## Changelog:
+##  - 2025.09.06:
+##    - Added `TestSuite` prefix to `IncludeIsMainRegex`.
 ##  - 2025.03.18:
 ##    - Created the configuration.
 ##
 ## Tested with:
 ##  - clang-format version 20.1.0
+##  - clang-format version 21.1.0
 ##
 
 BasedOnStyle: LLVM
@@ -65,6 +68,7 @@ FixNamespaceComments: false
 ForEachMacros: []
 IfMacros: []
 IncludeBlocks: Regroup
+IncludeIsMainRegex: "(TestSuite)?$"
 IndentCaseBlocks: false
 IndentCaseLabels: false
 IndentExternBlock: NoIndent

@@ -11,21 +11,28 @@
       "hidden": true,
       "generator": "Ninja",
       "binaryDir": "${sourceDir}/build/${presetName}",
-      "cacheVariables": {}
+      "cacheVariables": {
+        "BUILD_SHARED_LIBS": false
+      }
     },
     {
       "name": "debug",
       "inherits": ["common"],
       "cacheVariables": {
         "CMAKE_BUILD_TYPE": "Debug",
-        "CMAKE_EXPORT_COMPILE_COMMANDS": true
+        "CMAKE_COMPILE_WARNING_AS_ERROR": false,
+        "CMAKE_EXPORT_COMPILE_COMMANDS": true,
+        "CMAKE_INTERPROCEDURAL_OPTIMIZATION": false
       }
     },
     {
       "name": "release",
       "inherits": ["common"],
       "cacheVariables": {
-        "CMAKE_BUILD_TYPE": "Release"
+        "CMAKE_BUILD_TYPE": "Release",
+        "CMAKE_COMPILE_WARNING_AS_ERROR": true,
+        "CMAKE_EXPORT_COMPILE_COMMANDS": false,
+        "CMAKE_INTERPROCEDURAL_OPTIMIZATION": true
       }
     }
   ],

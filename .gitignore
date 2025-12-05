@@ -1,5 +1,2 @@
-# Build system files
-build/
-
-# Editor files
 .vscode/
+build/
