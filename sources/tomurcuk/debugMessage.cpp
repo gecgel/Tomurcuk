@@ -1,4 +1,4 @@
-#include "tomurcuk/DebugMessage.hpp"
+#include "tomurcuk/debugMessage.hpp"
 
 auto tomurcuk::debugMessage() -> char const * {
     return "Hello, World!";

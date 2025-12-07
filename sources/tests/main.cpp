@@ -1,4 +1,4 @@
-#include "tomurcuk/DebugMessage.hpp"
+#include "tomurcuk/debugMessage.hpp"
 
 #include <stdio.h>
 
